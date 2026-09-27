@@ -54,7 +54,7 @@ node tools/畅梦人_02_build_epub.js    # 畅梦人.epub
 epub 由 GitHub Actions（`.github/workflows/epub.yml`）自动构建，不进 git 仓库：
 
 - 每个 PR / 每次推到 `main` 都会构建一遍，确认改动没有把 epub 解析弄崩；构建产物可以在该次 Actions 运行页面的 Artifacts 里下载预览。
-- 校对积累到一定量后，维护者推一个 tag（如 `git tag v0.2 && git push origin v0.2`），Actions 会自动创建对应 Release 并附上三本 epub。
+- 校对积累到一定量后，维护者按日期推一个 tag（如 `git tag v2026.09.28 && git push origin v2026.09.28`，同一天再发加后缀 `.2`），Actions 会自动创建对应 Release 并附上三本 epub。
 
 ## 给 AI 协作者
 
