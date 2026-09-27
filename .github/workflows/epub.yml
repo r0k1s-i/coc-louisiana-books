@@ -1,0 +1,57 @@
+# PR / push 到 main：构建三本 epub，确认排版版 md 没有把解析弄崩，产物作为 workflow artifact 可下载预览。
+# 推送 v* tag：额外创建 GitHub Release 并附上三本 epub。
+name: Build EPUB
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build
+        run: |
+          set -euo pipefail
+          for book in 低电 短见 畅梦人; do
+            node "tools/${book}_02_build_epub.js"
+          done
+          # Release 附件名含中文会被 GitHub 改写成乱码，统一换成英文文件名，中文书名放在附件 label 里
+          mkdir dist
+          cp 低电.epub   dist/LOW_POWER.epub
+          cp 短见.epub   dist/SHORT-SIGHTED.epub
+          cp 畅梦人.epub dist/OPEN_DREAMER.epub
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: epub
+          path: dist/*.epub
+
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          assets=(
+            "dist/LOW_POWER.epub#低电 LOW POWER（上篇）.epub"
+            "dist/SHORT-SIGHTED.epub#短见 SHORT-SIGHTED（中篇）.epub"
+            "dist/OPEN_DREAMER.epub#畅梦人 OPEN DREAMER（下篇）.epub"
+          )
+          # Release 可能已在网页上手动建好：存在就覆盖上传附件，不存在才新建
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" --clobber "${assets[@]}"
+          else
+            gh release create "$GITHUB_REF_NAME" --generate-notes --title "$GITHUB_REF_NAME" "${assets[@]}"
+          fi

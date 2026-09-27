@@ -46,7 +46,12 @@ node tools/畅梦人_02_build_epub.js    # 畅梦人.epub
 
 ## 版本发布
 
-每次校对积累到一定量就打一个 tag（如 `v0.2`），并在对应 GitHub Release 里附上用上面命令生成好的三本 epub，方便只想直接下载阅读、不参与校对的读者。
+只想读书的话，直接去 [Releases](https://github.com/r0k1s-i/coc-louisiana-books/releases) 下载最新的三本 epub。
+
+epub 由 GitHub Actions（`.github/workflows/epub.yml`）自动构建，不进 git 仓库：
+
+- 每个 PR / 每次推到 `main` 都会构建一遍，确认改动没有把 epub 解析弄崩；构建产物可以在该次 Actions 运行页面的 Artifacts 里下载预览。
+- 校对积累到一定量后，维护者推一个 tag（如 `git tag v0.2 && git push origin v0.2`），Actions 会自动创建对应 Release 并附上三本 epub。
 
 ## 给 AI 协作者
 
