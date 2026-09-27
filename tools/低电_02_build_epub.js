@@ -1,6 +1,7 @@
 require('./common_epub.js').buildEpub({
   srcMd: '低电_排版版.md',
   epubOut: '低电.epub',
+  bookId: 'urn:uuid:43f930d3-698f-43df-82b2-1c775a114199',
   bookTitle: '低电',
   bookTitleEn: 'LOW POWER',
   bookSubtitle: '路易斯安那系列·上篇',

@@ -3,6 +3,7 @@
 require('./common_epub.js').buildEpub({
   srcMd: '畅梦人_排版版.md',
   epubOut: '畅梦人.epub',
+  bookId: 'urn:uuid:c61e0305-fec8-45d1-a77b-8ec37f5290c8',
   bookTitle: '畅梦人',
   bookTitleEn: 'OPEN DREAMER',
   bookSubtitle: '路易斯安那系列·下篇',

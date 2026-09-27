@@ -1,6 +1,7 @@
 require('./common_epub.js').buildEpub({
   srcMd: '短见_排版版.md',
   epubOut: '短见.epub',
+  bookId: 'urn:uuid:b4eec721-70dc-4f6f-b2fb-26b3bfc5d58e',
   bookTitle: '短见',
   bookTitleEn: 'SHORT-SIGHTED',
   bookSubtitle: '路易斯安那系列·中篇',

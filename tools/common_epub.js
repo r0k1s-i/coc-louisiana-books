@@ -6,7 +6,6 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const crypto = require('crypto');
 const { execFileSync } = require('child_process');
 
 function escapeHtml(s) {
@@ -193,6 +192,11 @@ const CSS = `
 }
 
 @media (prefers-color-scheme: dark) {
+  /* Set the background too: a reader that reports dark scheme but keeps a
+     white page would otherwise show light-grey text on white. */
+  body {
+    background-color: #1c1c1c;
+  }
   :root {
     --text-color: #dddddd;
     --narr-color: #d6d6d6;
@@ -778,7 +782,8 @@ em {
 }
 `;
 
-// cfg: { srcMd, epubOut, bookTitle, bookSubtitle, bookMeta, creator, editor, description, coverImage, authorAvatar, bilibiliUrl, disclaimer, images, imageDirs, appendices }
+// cfg: { srcMd, epubOut, bookId, bookTitle, bookSubtitle, bookMeta, creator, editor, description, coverImage, authorAvatar, bilibiliUrl, disclaimer, images, imageDirs, appendices }
+//   bookId:     fixed urn:uuid:... so readers treat every rebuild as the same book (keeps progress/notes)
 //   appendices: extra 排版版 md files whose chapters go after the main text, marked epub:type="appendix"
 //   imageDirs:  [{ src, name }] -- every image file in `src` is packed as images/<name>/<file>
 function buildEpub(cfg) {
@@ -788,7 +793,8 @@ function buildEpub(cfg) {
   const OUT_DIR = fs.mkdtempSync(path.join(os.tmpdir(), 'coc-epub-'));
   const TEXT_DIR = path.join(OUT_DIR, 'OEBPS', 'text');
   const IMG_DIR = path.join(OUT_DIR, 'OEBPS', 'images');
-  const BOOK_UUID = 'urn:uuid:' + crypto.randomUUID();
+  if (!cfg.bookId) throw new Error('cfg.bookId is required (a fixed urn:uuid:...)');
+  const BOOK_UUID = cfg.bookId;
 
   const raw = fs.readFileSync(SRC, 'utf8').replace(/^﻿/, '');
   const chapters = parseIntermediateMarkdown(raw);
@@ -925,7 +931,7 @@ ${cfg.bookMeta ? `<p class="bookmeta">${escapeHtml(cfg.bookMeta)}</p>` : ''}
   }
 
   const authorHtml = XHTML_HEAD('作者信息') + `
-<section epub:type="afterword" class="author-page">
+<section class="author-page">
   <div class="author-card">
     ${authorAvatarName ? `
     <div class="author-avatar-wrap">
@@ -983,7 +989,7 @@ ${body}
     const id = `ch${idx}`;
     manifestItems.push({ id, href: `text/${fname}`, type: 'application/xhtml+xml' });
     spineItems.push(id);
-    navPoints.push({ id, href: `text/${fname}`, title: chap.title });
+    navPoints.push({ id, href: `text/${fname}`, title: chap.title, appendix: !!chap.appendix });
   });
 
   fs.writeFileSync(path.join(OUT_DIR, 'OEBPS', 'style.css'), CSS, 'utf8');
@@ -1041,6 +1047,10 @@ ${body}
   landmarksList.push('      <li><a epub:type="toc" href="nav.xhtml">目录</a></li>');
   if (navPoints.length > 0) {
     landmarksList.push(`      <li><a epub:type="bodymatter" href="${navPoints[0].href}">正文</a></li>`);
+  }
+  const firstAppendix = navPoints.find(np => np.appendix);
+  if (firstAppendix) {
+    landmarksList.push(`      <li><a epub:type="appendix" href="${firstAppendix.href}">附录</a></li>`);
   }
 
   fs.writeFileSync(path.join(OUT_DIR, 'OEBPS', 'nav.xhtml'), `<?xml version="1.0" encoding="UTF-8"?>
