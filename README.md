@@ -1,5 +1,8 @@
 # 路易斯安那系列 · 克苏鲁跑团 Replay 文字整理
 
+[![下载 epub](https://img.shields.io/github/downloads/r0k1s-i/coc-louisiana-books/total?label=epub%20下载)](https://github.com/r0k1s-i/coc-louisiana-books/releases)
+[![Build EPUB](https://github.com/r0k1s-i/coc-louisiana-books/actions/workflows/epub.yml/badge.svg)](https://github.com/r0k1s-i/coc-louisiana-books/actions/workflows/epub.yml)
+
 克苏鲁的呼唤（Call of Cthulhu）跑团 Replay「路易斯安那系列」三部曲的 OCR 校对 + 排版文字版，来源是 [歌味觉死](https://www.bilibili.com) 的 B 站视频 Replay。
 
 | 书名 | 系列 | 原视频 |
