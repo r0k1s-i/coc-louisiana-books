@@ -778,7 +778,9 @@ em {
 }
 `;
 
-// cfg: { srcMd, epubOut, bookTitle, bookSubtitle, bookMeta, creator, editor, description, coverImage, authorAvatar, bilibiliUrl, disclaimer, images }
+// cfg: { srcMd, epubOut, bookTitle, bookSubtitle, bookMeta, creator, editor, description, coverImage, authorAvatar, bilibiliUrl, disclaimer, images, imageDirs, appendices }
+//   appendices: extra 排版版 md files whose chapters go after the main text, marked epub:type="appendix"
+//   imageDirs:  [{ src, name }] -- every image file in `src` is packed as images/<name>/<file>
 function buildEpub(cfg) {
   const REPO_DIR = path.resolve(__dirname, '..');
   const SRC = path.isAbsolute(cfg.srcMd) ? cfg.srcMd : path.join(REPO_DIR, cfg.srcMd);
@@ -790,6 +792,12 @@ function buildEpub(cfg) {
 
   const raw = fs.readFileSync(SRC, 'utf8').replace(/^﻿/, '');
   const chapters = parseIntermediateMarkdown(raw);
+  for (const appMd of cfg.appendices || []) {
+    const appSrc = path.isAbsolute(appMd) ? appMd : path.join(REPO_DIR, appMd);
+    const appChapters = parseIntermediateMarkdown(fs.readFileSync(appSrc, 'utf8').replace(/^﻿/, ''));
+    appChapters.forEach(c => { c.appendix = true; });
+    chapters.push(...appChapters);
+  }
 
   fs.mkdirSync(TEXT_DIR, { recursive: true });
   fs.mkdirSync(IMG_DIR, { recursive: true });
@@ -966,7 +974,7 @@ ${cfg.bookMeta ? `<p class="bookmeta">${escapeHtml(cfg.bookMeta)}</p>` : ''}
     const isRules = chap.title === '规则序言';
     const body = isRules ? renderRulesPreface(chap.blocks) : chap.blocks.map(renderBlock).join('\n');
     const html = XHTML_HEAD(chap.title) + `
-<section epub:type="chapter">
+<section epub:type="${chap.appendix ? 'appendix' : 'chapter'}">
 <h1 class="chaptertitle" style="text-align: center; text-indent: 0;">${escapeHtml(chap.title)}</h1>
 ${body}
 </section>
@@ -989,6 +997,16 @@ ${body}
       manifestItems.push({ id: `img${i}`, href: `images/${img.name}`, type: MEDIA_TYPES[ext] || 'image/png' });
     });
   }
+  (cfg.imageDirs || []).forEach((d, di) => {
+    const srcDir = path.isAbsolute(d.src) ? d.src : path.join(REPO_DIR, d.src);
+    fs.mkdirSync(path.join(IMG_DIR, d.name), { recursive: true });
+    fs.readdirSync(srcDir).sort().forEach((f, i) => {
+      const ext = path.extname(f).toLowerCase();
+      if (!MEDIA_TYPES[ext]) return;
+      fs.copyFileSync(path.join(srcDir, f), path.join(IMG_DIR, d.name, f));
+      manifestItems.push({ id: `imgdir${di}-${i}`, href: `images/${d.name}/${f}`, type: MEDIA_TYPES[ext] });
+    });
+  });
 
   fs.mkdirSync(path.join(OUT_DIR, 'META-INF'), { recursive: true });
   fs.writeFileSync(path.join(OUT_DIR, 'META-INF', 'container.xml'), `<?xml version="1.0" encoding="UTF-8"?>
