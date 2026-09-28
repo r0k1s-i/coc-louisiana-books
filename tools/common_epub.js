@@ -134,7 +134,9 @@ function renderBlock(lines) {
       const cls = /^(🎲|条件:|掷骰:|损失:)/.test(l) ? 'dice-roll'
         : /^(🌟|结算:)/.test(l) ? 'dice-outcome'
         : l.startsWith('🍀') ? 'dice-luck'
-        : i === 0 ? 'dice-who' : 'dice-note';
+        : i === 0 ? 'dice-who'
+        : l.startsWith('▷ ') ? 'dice-who dice-sub' // 并入同框的附属掷骰（伤害、消耗MP 等）
+        : 'dice-note';
       const text = l.startsWith('▷ ') ? l.slice(2) : l;
       return `<p class="${cls}">${escapeHtml(text)}</p>`;
     });
@@ -691,6 +693,7 @@ div.dice-card p {
 p.dice-who { font-weight: bold; }
 p.dice-roll { font-family: "Courier New", monospace; }
 p.dice-note { font-size: 0.92em; }
+div.dice-card p.dice-sub { margin-top: 0.5em; }
 p.dice-outcome {
   color: #7a501a;
   color: var(--dice-outcome, #7a501a);
