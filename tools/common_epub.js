@@ -151,6 +151,20 @@ function renderBlock(lines) {
   return lines.map(l => `<p class="narr">${applyEmphasis(escapeHtml(l))}</p>`).join('\n');
 }
 
+// 制作人员 appendix: § section headings, every other line centered; URL lines
+// become clickable links (the model-credit lists are Sketchfab profile URLs).
+function renderCredits(blocks) {
+  return blocks.map(lines => {
+    const sub = lines[0].match(/^§(.+)$/);
+    if (sub) return `<p class="ms-subtitle" style="text-align: center; text-indent: 0;">${escapeHtml(sub[1])}</p>`;
+    return lines.map(l => {
+      const t = escapeHtml(l);
+      const inner = /^https?:\/\/\S+$/.test(l) ? `<a href="${t}">${t}</a>` : t;
+      return `<p class="credit" style="text-align: center; text-indent: 0;">${inner}</p>`;
+    }).join('\n');
+  }).join('\n');
+}
+
 function renderRulesPreface(blocks) {
   const out = [];
   for (const lines of blocks) {
@@ -576,6 +590,14 @@ ol.rules-list li {
   -webkit-text-align: justify;
 }
 
+/* 制作人员 appendix line */
+p.credit {
+  margin: 0.25em 0;
+  text-align: center !important;
+  text-indent: 0 !important;
+  word-break: break-all;
+}
+
 /* Scene / time-skip caption */
 p.scene {
   margin: 1.6em 0;
@@ -978,7 +1000,9 @@ ${cfg.bookMeta ? `<p class="bookmeta">${escapeHtml(cfg.bookMeta)}</p>` : ''}
   chapters.forEach((chap, idx) => {
     const fname = `ch${String(idx).padStart(2, '0')}.xhtml`;
     const isRules = chap.title === '规则序言';
-    const body = isRules ? renderRulesPreface(chap.blocks) : chap.blocks.map(renderBlock).join('\n');
+    const body = isRules ? renderRulesPreface(chap.blocks)
+      : chap.title === '制作人员' ? renderCredits(chap.blocks)
+      : chap.blocks.map(renderBlock).join('\n');
     const html = XHTML_HEAD(chap.title) + `
 <section epub:type="${chap.appendix ? 'appendix' : 'chapter'}">
 <h1 class="chaptertitle" style="text-align: center; text-indent: 0;">${escapeHtml(chap.title)}</h1>
