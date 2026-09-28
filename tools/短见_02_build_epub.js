@@ -17,6 +17,6 @@ require('./common_epub.js').buildEpub({
     { src: 'tools/images/carol_rigg_1.png', name: 'carol_rigg_1.png' },
     { src: 'tools/images/carol_rigg_2.png', name: 'carol_rigg_2.png' },
   ],
-  appendices: ['低电短见_杂谈_排版版.md'],
+  appendices: ['低电短见_杂谈_排版版.md', '短见_制作人员_排版版.md'],
   imageDirs: [{ src: 'tools/images/低电短见_杂谈', name: 'didian_duanjian_zatan' }],
 });
