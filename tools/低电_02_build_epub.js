@@ -13,4 +13,5 @@ require('./common_epub.js').buildEpub({
   coverImage: 'tools/images/cover_low_power.png',
   authorAvatar: 'tools/images/author_avatar.jpg',
   disclaimer: '视频由2021年的网团大面积魔改而成自娱自乐，切勿当真。视频可能包含各类令人不适的描述，请积极回避。',
+  appendices: ['低电_制作人员_排版版.md'],
 });
