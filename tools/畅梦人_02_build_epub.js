@@ -15,7 +15,7 @@ require('./common_epub.js').buildEpub({
   coverImage: 'tools/images/cover_open_dreamer.png',
   authorAvatar: 'tools/images/author_avatar.jpg',
   disclaimer: '视频由2023年的网团大面积魔改而成自娱自乐，切勿当真。视频可能包含各类令人不适的描述，请积极回避。',
-  appendices: ['追星_杂谈_排版版.md'],
+  appendices: ['追星_杂谈_排版版.md', '畅梦人_制作人员_排版版.md'],
   imageDirs: [
     { src: 'tools/images/追星_杂谈', name: 'zhuixing_zatan' },
     { src: 'tools/images/畅梦人', name: 'changmengren' },
