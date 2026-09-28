@@ -128,9 +128,13 @@ function renderBlock(lines) {
   }
 
   if (first.startsWith('▷ ')) {
-    const rows = lines.map(l => {
-      const cls = l.startsWith('🎲') ? 'dice-roll' : l.startsWith('🌟') ? 'dice-outcome'
-        : l.startsWith('🍀') ? 'dice-luck' : 'dice-who';
+    const rows = lines.map((l, i) => {
+      // San Check 卡片用「条件:/掷骰:/损失:/结算:」文字标签代替 emoji 前缀；
+      // 标题下方其余无前缀的行是检定说明
+      const cls = /^(🎲|条件:|掷骰:|损失:)/.test(l) ? 'dice-roll'
+        : /^(🌟|结算:)/.test(l) ? 'dice-outcome'
+        : l.startsWith('🍀') ? 'dice-luck'
+        : i === 0 ? 'dice-who' : 'dice-note';
       const text = l.startsWith('▷ ') ? l.slice(2) : l;
       return `<p class="${cls}">${escapeHtml(text)}</p>`;
     });
@@ -686,6 +690,7 @@ div.dice-card p {
 }
 p.dice-who { font-weight: bold; }
 p.dice-roll { font-family: "Courier New", monospace; }
+p.dice-note { font-size: 0.92em; }
 p.dice-outcome {
   color: #7a501a;
   color: var(--dice-outcome, #7a501a);
