@@ -15,10 +15,13 @@
 ## 仓库内容
 
 ```
-低电_排版版.md      低电_排版版.md
-短见_排版版.md      短见_排版版.md
-畅梦人_排版版.md    畅梦人_排版版.md
-tools/              排版 md -> epub 的生成工具
+low-power.md                     《低电》正文
+short-sighted.md                 《短见》正文
+open-dreamer.md                  《畅梦人》正文
+low-power-short-sighted-talk.md  附录：低电&短见（杂谈）
+chasing-stars-talk.md            附录：追星（杂谈）
+*-credits.md                     附录：各书制作人员
+tools/                           排版 md -> epub 的生成工具
 ```
 
 正文是纯 Markdown：旁白、对话、招牌、引用资料、骰子检定卡片、注释都有各自的排版约定（见文件内实例，无需额外说明文档，读几段就能看懂）。
@@ -27,13 +30,13 @@ tools/              排版 md -> epub 的生成工具
 
 文字是从视频字幕 OCR 逐句抠出来再整理的，纸浆天赋、检定、人名地名这些细节还没有精力逐字复核，欢迎一起挑错：
 
-- **改文字**：直接编辑对应的 `*_排版版.md`，提 PR。小到一个错别字、一处人名不一致，都欢迎。
+- **改文字**：直接编辑对应的正文 md（如 `low-power.md`），提 PR。小到一个错别字、一处人名不一致，都欢迎。
 - **提问题**：不确定原意、找到疑似 OCR 误读但不确定怎么改，开 Issue 讨论。
 - 提交前不需要跑任何工具或搭建环境——文字本身才是仓库的价值所在。
 
 ## 从 md 生成 epub
 
-`tools/` 里是把排版版 md 渲染成 epub 的工具，纯 Node.js（无 npm 依赖）+ 系统 `zip` 命令：
+`tools/` 里是把排版 md 渲染成 epub 的工具，纯 Node.js（无 npm 依赖）+ 系统 `zip` 命令：
 
 ```bash
 node tools/低电_02_build_epub.js      # 低电.epub
@@ -45,7 +48,7 @@ node tools/畅梦人_02_build_epub.js    # 畅梦人.epub
 - `tools/<书名>_02_build_epub.js`：每本书的封面、简介、免责声明等元数据。
 - `tools/images/`：封面图与作者头像。
 
-未来如果要给正文加插图，直接在对应 `*_排版版.md` 里用 `![说明](tools/images/xxx.png)` 引用、图片放进 `tools/images/`；`common_epub.js` 打包时会一并收进 epub（参考 `短见_02_build_epub.js` 里 `images` 字段的用法）。
+未来如果要给正文加插图，直接在对应正文 md 里用 `![说明](tools/images/xxx.png)` 引用、图片放进 `tools/images/`；`common_epub.js` 打包时会一并收进 epub（参考 `短见_02_build_epub.js` 里 `images` 字段的用法）。
 
 ## 版本发布
 

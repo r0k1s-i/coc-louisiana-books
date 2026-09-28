@@ -8,8 +8,8 @@
 
 ## 文件角色
 
-- `*_排版版.md`：唯一的正文来源（source of truth）。校对任务改的就是这几个文件。
-- `tools/*_02_build_epub.js` + `tools/common_epub.js`：`排版版.md -> epub` 的生成工具。改排版渲染逻辑从这里入手。
+- 仓库根目录的 `*.md`（`low-power.md`、`short-sighted.md`、`open-dreamer.md` 三本正文，`*-talk.md` 杂谈、`*-credits.md` 制作人员两类附录；`README.md`/`AGENTS.md` 等说明文件除外）：唯一的正文来源（source of truth）。校对任务改的就是这几个文件。
+- `tools/*_02_build_epub.js` + `tools/common_epub.js`：`正文 md -> epub` 的生成工具。改排版渲染逻辑从这里入手。
 
 ## 处理校对类任务时
 

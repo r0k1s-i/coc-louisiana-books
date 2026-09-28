@@ -1,5 +1,5 @@
 require('./common_epub.js').buildEpub({
-  srcMd: '短见_排版版.md',
+  srcMd: 'short-sighted.md',
   epubOut: '短见.epub',
   bookId: 'urn:uuid:b4eec721-70dc-4f6f-b2fb-26b3bfc5d58e',
   bookTitle: '短见',
@@ -17,6 +17,6 @@ require('./common_epub.js').buildEpub({
     { src: 'tools/images/carol_rigg_1.png', name: 'carol_rigg_1.png' },
     { src: 'tools/images/carol_rigg_2.png', name: 'carol_rigg_2.png' },
   ],
-  appendices: ['低电短见_杂谈_排版版.md', '短见_制作人员_排版版.md'],
+  appendices: ['low-power-short-sighted-talk.md', 'short-sighted-credits.md'],
   imageDirs: [{ src: 'tools/images/低电短见_杂谈', name: 'didian_duanjian_zatan' }],
 });

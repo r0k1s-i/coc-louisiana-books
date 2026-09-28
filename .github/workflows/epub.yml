@@ -1,4 +1,4 @@
-# PR / push 到 main：构建三本 epub，确认排版版 md 没有把解析弄崩，产物作为 workflow artifact 可下载预览。
+# PR / push 到 main：构建三本 epub，确认正文 md 没有把解析弄崩，产物作为 workflow artifact 可下载预览。
 # 推送 v* tag：额外创建 GitHub Release 并附上三本 epub。
 name: Build EPUB
 

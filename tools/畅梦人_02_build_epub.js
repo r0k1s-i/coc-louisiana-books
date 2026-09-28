@@ -1,7 +1,7 @@
 // Stage B (畅梦人): intermediate markdown -> EPUB. Book-specific config only;
 // the actual rendering/packaging engine lives in common_epub.js.
 require('./common_epub.js').buildEpub({
-  srcMd: '畅梦人_排版版.md',
+  srcMd: 'open-dreamer.md',
   epubOut: '畅梦人.epub',
   bookId: 'urn:uuid:c61e0305-fec8-45d1-a77b-8ec37f5290c8',
   bookTitle: '畅梦人',
@@ -15,7 +15,7 @@ require('./common_epub.js').buildEpub({
   coverImage: 'tools/images/cover_open_dreamer.png',
   authorAvatar: 'tools/images/author_avatar.jpg',
   disclaimer: '视频由2023年的网团大面积魔改而成自娱自乐，切勿当真。视频可能包含各类令人不适的描述，请积极回避。',
-  appendices: ['追星_杂谈_排版版.md', '畅梦人_制作人员_排版版.md'],
+  appendices: ['chasing-stars-talk.md', 'open-dreamer-credits.md'],
   imageDirs: [
     { src: 'tools/images/追星_杂谈', name: 'zhuixing_zatan' },
     { src: 'tools/images/畅梦人', name: 'changmengren' },

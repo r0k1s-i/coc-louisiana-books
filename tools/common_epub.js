@@ -806,7 +806,7 @@ em {
 
 // cfg: { srcMd, epubOut, bookId, bookTitle, bookSubtitle, bookMeta, creator, editor, description, coverImage, authorAvatar, bilibiliUrl, disclaimer, images, imageDirs, appendices }
 //   bookId:     fixed urn:uuid:... so readers treat every rebuild as the same book (keeps progress/notes)
-//   appendices: extra 排版版 md files whose chapters go after the main text, marked epub:type="appendix"
+//   appendices: extra md files whose chapters go after the main text, marked epub:type="appendix"
 //   imageDirs:  [{ src, name }] -- every image file in `src` is packed as images/<name>/<file>
 function buildEpub(cfg) {
   const REPO_DIR = path.resolve(__dirname, '..');
