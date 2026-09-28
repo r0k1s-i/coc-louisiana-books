@@ -33,7 +33,7 @@
 PC2则作为肌肉终端体验文献、回报结果·但细想发现判定太复杂，就没实施
 
 【图片】
-images/zhuixing_zatan/ill_001_0100.0s.jpg
+images/chasing-stars-talk/ill_001_0100.0s.jpg
 
 原作串起三章的物件是雕像，雕像受到关照最多，从艺术流派到化学到语言学民俗学历史学研究了个遍
 
@@ -46,27 +46,27 @@ images/zhuixing_zatan/ill_001_0100.0s.jpg
 内容上·原作小说第一章为主角复述死去科学家安杰尔教授的第一篇文稿该文稿类似研究笔记。
 
 【图片】
-images/zhuixing_zatan/ill_002_0136.0s.jpg
+images/chasing-stars-talk/ill_002_0136.0s.jpg
 
 教授接触了自称超能多梦的威尔科克斯·先对其长期走访问话·即单一对象时间序列研究
 
 【图片】
-images/zhuixing_zatan/ill_003_0143.8s.jpg
+images/chasing-stars-talk/ill_003_0143.8s.jpg
 
 后扩大走访范围·统计不同职业从业者在该段时间内的做梦情况·即多对象横断面研究。
 
 小说里几次直接管走访结果叫数据（“data”），并且明言教授描述案例时用的是代号而非姓名·艾洛温的数据记录便沿袭了这个特点
 
 【图片】
-images/zhuixing_zatan/ill_004_0154.6s.jpg
+images/chasing-stars-talk/ill_004_0154.6s.jpg
 
 【图片】
-images/zhuixing_zatan/ill_005_0161.2s.jpg
+images/chasing-stars-talk/ill_005_0161.2s.jpg
 
 教授收集到的数据量多到“普通人不靠秘书处理不过来”·并在文稿最后给出统计结论：“艺术家做异梦”的似然率高
 
 【图片】
-images/zhuixing_zatan/ill_006_0169.8s.jpg
+images/chasing-stars-talk/ill_006_0169.8s.jpg
 
 我自己读到这里视点已离开教授，移到了主角所在的旁观席。我觉得视点转移有利于静心细看庞然大物，评估克苏鲁的影响之花样之多
 
@@ -75,7 +75,7 @@ images/zhuixing_zatan/ill_006_0169.8s.jpg
 相反，《克苏鲁的呼唤》全文3/4的时间里主角心定得很·他没感到自己人身安全受到威胁·他对教授（他的亲戚）也没多余感情
 
 【图片】
-images/zhuixing_zatan/ill_007_0199.0s.jpg
+images/chasing-stars-talk/ill_007_0199.0s.jpg
 
 他调查的驱动力（据他本人声称）是搞个大发现以在学术界留名。
 
@@ -84,7 +84,7 @@ images/zhuixing_zatan/ill_007_0199.0s.jpg
 我敢说大多数人读完小说都不知道主角叫啥
 
 【图片】
-images/zhuixing_zatan/ill_008_0215.4s.jpg
+images/chasing-stars-talk/ill_008_0215.4s.jpg
 
 书里人物要数内环当事人的名字最好记·比如威尔科斯克·莱格拉斯，卡斯特罗，约翰森
 
@@ -99,14 +99,14 @@ images/zhuixing_zatan/ill_008_0215.4s.jpg
 题外话·其实“艺术家异梦”似然率高不代表异梦都被艺术家做去了，所以借艾洛温的嘴提了个万能枪弹。
 
 【图片】
-images/zhuixing_zatan/ill_009_0256.6s.jpg
+images/chasing-stars-talk/ill_009_0256.6s.jpg
 
 小说第一章结尾详细列举了九件同时期发生在新英格兰之外的奇异事件对旁证而言数量无价。
 
 另外，九起事件第一起是伦敦独居者在睡梦中跳楼·这和艾伦人物卡背景里的坠楼经历能对上。
 
 【图片】
-images/zhuixing_zatan/ill_010_0273.2s.jpg
+images/chasing-stars-talk/ill_010_0273.2s.jpg
 
 小说第二章对应死去科学家安杰尔教授的第二篇文稿，算上主角本人是第四条时间线（1908，1925，1926-27，主角落笔时）。
 
@@ -139,7 +139,7 @@ polypous是polyp的形容词·polyp可以指息肉或者水螅体，共同特征
 cy.cokcvoc水螅体不是水螅：水螅体形容的是一类形状·水螅（hydrozoa/hydridae/ hydra）则是一类具体生物
 
 【图片】
-images/zhuixing_zatan/ill_011_0378.0s.jpg
+images/chasing-stars-talk/ill_011_0378.0s.jpg
 
 ...所以polypous不是比喻（“像水螅的”）·而是陈形状分类（“水螅体形的”），因此给人感觉更具威信。
 
@@ -152,7 +152,7 @@ cy.cokcvnoc这三个特点放一起就有了罕见的有机质的画面感，给
 他确实是喜爱科学·但喜爱仅限天文学。他的科学文集从头到尾每篇都是星星月亮宇宙夜空
 
 【图片】
-images/zhuixing_zatan/ill_012_0405.0s.jpg
+images/chasing-stars-talk/ill_012_0405.0s.jpg
 
 之后莱格拉斯继续说，警队深入沼泽，与一众异教徒正面冲突，人数为20对50以上（47人被捕，5人死亡，但开战前提到对方人数或许近百）
 
@@ -161,7 +161,7 @@ images/zhuixing_zatan/ill_012_0405.0s.jpg
 一架打完·警察审讯异教徒·第二章后半便是教徒卡斯特罗的口供
 
 【图片】
-images/zhuixing_zatan/ill_013_0432.0s.jpg
+images/chasing-stars-talk/ill_013_0432.0s.jpg
 
 退到外环看·这一大篇内容结构为读者读主角读教授听警探听卡斯特罗转达不死中国人的知识。
 
@@ -172,24 +172,24 @@ images/zhuixing_zatan/ill_013_0432.0s.jpg
 口供中有《克苏鲁的呼唤》里最有名的条件之一：“当星星排列正确/准备就绪时”，旧日支配者会复生。
 
 【图片】
-images/zhuixing_zatan/ill_014_0463.2s.jpg
+images/chasing-stars-talk/ill_014_0463.2s.jpg
 
 小说中没有解释为什么星星排列正确/准备就绪时旧日支配者会复生·这是个天体级的谜语。
 
 【图片】
-images/zhuixing_zatan/ill_015_0475.6s.jpg
+images/chasing-stars-talk/ill_015_0475.6s.jpg
 
 不过该谜语在细胞里有个现成的解释：就是细胞分裂中形成的星状体，或称星体
 
 【图片】
-images/zhuixing_zatan/ill_016_0483.0s.jpg
+images/chasing-stars-talk/ill_016_0483.0s.jpg
 
 星状体极化准备就绪·染色体排列正确·细胞便会分裂·而细胞分裂是一切生命新生成长变大的基础过程
 
 即·星星准备就绪旧日才会复生。《畅梦人》里伊曼纽尔就对应星星。
 
 【图片】
-images/zhuixing_zatan/ill_017_0493.2s.jpg
+images/chasing-stars-talk/ill_017_0493.2s.jpg
 
 小说里还提到当星星和地球/土壤准备完毕时旧日会复生，和用尘土为原料复制岛屿对应更好了
 
@@ -248,7 +248,7 @@ images/zhuixing_zatan/ill_017_0493.2s.jpg
 比如细胞分裂本身就对应了“奇怪地对角移动
 
 【图片】
-images/zhuixing_zatan/ill_018_0689.6s.jpg
+images/chasing-stars-talk/ill_018_0689.6s.jpg
 
 其次·胞膜（包括细胞器的膜）不但对应球面·还可分外膜内膜。
 
@@ -259,7 +259,7 @@ images/zhuixing_zatan/ill_018_0689.6s.jpg
 选择透过性还取决于膜上物质转运通道，若通道交叉，被转运物在入口和出口的相对位置就会大变（船队和有翼生物重排）。
 
 【图片】
-images/zhuixing_zatan/ill_019_0715.4s.jpg
+images/chasing-stars-talk/ill_019_0715.4s.jpg
 
 主动转运往往需要识别通行证（米丘氏器、伊曼纽尔肺）。
 
@@ -270,7 +270,7 @@ images/zhuixing_zatan/ill_019_0715.4s.jpg
 说完几何错乱，下文就是广为流传的船撞克苏鲁，未知岛屿消失。
 
 【图片】
-images/zhuixing_zatan/ill_020_0740.4s.jpg
+images/chasing-stars-talk/ill_020_0740.4s.jpg
 
 主角独白：消失是暂时的·那群异教徒还在·旧日苏醒可以等下次
 
@@ -281,7 +281,7 @@ images/zhuixing_zatan/ill_020_0740.4s.jpg
 三章结尾·主角说他怀疑约翰森、安杰尔教授等人都是被异教徒暗杀而死目的不是仪式而是堵嘴的。
 
 【图片】
-images/zhuixing_zatan/ill_021_0769.0s.jpg
+images/chasing-stars-talk/ill_021_0769.0s.jpg
 
 第二章里还提到路易斯安那落网的异教徒都否认参与仪式谋杀·说仪式谋杀是黑色有翼生物（“black winged ones"）做的。
 
@@ -300,7 +300,7 @@ images/zhuixing_zatan/ill_021_0769.0s.jpg
 其目的首先是为另一些捏造事项打掩护，比如威廉·韦伯的格林兰岛爱斯基摩详细异教习俗（伪）
 
 【图片】
-images/zhuixing_zatan/ill_022_0834.6s.jpg
+images/chasing-stars-talk/ill_022_0834.6s.jpg
 
 还有发表后藏在脚注里的“弗兰西斯·维兰德·瑟斯顿的文稿”（伪）。
 
@@ -309,7 +309,7 @@ images/zhuixing_zatan/ill_022_0834.6s.jpg
 小说提及多种理论思想的另一个目的在服务《克苏鲁的呼唤》的核心论点，也是全书开头
 
 【图片】
-images/zhuixing_zatan/ill_023_0852.4s.jpg
+images/chasing-stars-talk/ill_023_0852.4s.jpg
 
 世间最慈悲的事就是人脑无法完全关联其所知。"
 
@@ -322,7 +322,7 @@ images/zhuixing_zatan/ill_023_0852.4s.jpg
 所以《克苏鲁的呼唤》要分章，要多篇文稿，哪怕捏造也得涉及多种学科还反复提到联（correlate）。
 
 【图片】
-images/zhuixing_zatan/ill_024_0883.8s.jpg
+images/chasing-stars-talk/ill_024_0883.8s.jpg
 
 效果就是视频开头说的，让人意识到单个事物（克苏鲁）的多方面影响
 

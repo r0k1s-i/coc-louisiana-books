@@ -2035,8 +2035,8 @@ N BLAIR ST · ELIOT
 工作邮箱设有多因素验证，需重输密码加手机确认才能登入；私人邮箱却没登出。
 
 【图片】
-images/changmengren/ep03_email_1.png
-images/changmengren/ep03_email_2.png
+images/open-dreamer/ep03_email_1.png
+images/open-dreamer/ep03_email_2.png
 
 垃圾文件夹一钓一串反宗教推送。
 
@@ -12265,7 +12265,7 @@ WAT喂爱德华！
 > 「没从院方那儿套出来。」
 
 【图片】
-images/changmengren/ep15_email.png
+images/open-dreamer/ep15_email.png
 
 > **马克：** 「是啊..等等。」
 

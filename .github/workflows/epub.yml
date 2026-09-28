@@ -25,8 +25,8 @@ jobs:
       - name: Build
         run: |
           set -euo pipefail
-          for book in 低电 短见 畅梦人; do
-            node "tools/${book}_02_build_epub.js"
+          for book in low-power short-sighted open-dreamer; do
+            node "tools/build-${book}.js"
           done
           # Release 附件名含中文会被 GitHub 改写成乱码，统一换成英文文件名，中文书名放在附件 label 里
           mkdir dist

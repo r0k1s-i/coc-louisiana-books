@@ -39,16 +39,16 @@ tools/                           排版 md -> epub 的生成工具
 `tools/` 里是把排版 md 渲染成 epub 的工具，纯 Node.js（无 npm 依赖）+ 系统 `zip` 命令：
 
 ```bash
-node tools/低电_02_build_epub.js      # 低电.epub
-node tools/短见_02_build_epub.js      # 短见.epub
-node tools/畅梦人_02_build_epub.js    # 畅梦人.epub
+node tools/build-low-power.js       # 低电.epub
+node tools/build-short-sighted.js   # 短见.epub
+node tools/build-open-dreamer.js    # 畅梦人.epub
 ```
 
 - `tools/common_epub.js`：三本书共用的排版/打包引擎。
-- `tools/<书名>_02_build_epub.js`：每本书的封面、简介、免责声明等元数据。
+- `tools/build-<书名>.js`：每本书的封面、简介、免责声明等元数据。
 - `tools/images/`：封面图与作者头像。
 
-未来如果要给正文加插图，直接在对应正文 md 里用 `![说明](tools/images/xxx.png)` 引用、图片放进 `tools/images/`；`common_epub.js` 打包时会一并收进 epub（参考 `短见_02_build_epub.js` 里 `images` 字段的用法）。
+未来如果要给正文加插图，直接在对应正文 md 里用 `![说明](tools/images/xxx.png)` 引用、图片放进 `tools/images/`；`common_epub.js` 打包时会一并收进 epub（参考 `build-short-sighted.js` 里 `images` 字段的用法）。
 
 ## 版本发布
 

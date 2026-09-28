@@ -37,12 +37,12 @@
 那时候Storytelling collective开了一个写模组的研讨会
 
 【图片】
-images/didian_duanjian_zatan/ill_001_0058.8s.jpg
+images/low-power-short-sighted-talk/ill_001_0058.8s.jpg
 
 研讨会每天会留作业
 
 【图片】
-images/didian_duanjian_zatan/ill_002_0063.8s.jpg
+images/low-power-short-sighted-talk/ill_002_0063.8s.jpg
 
 7月4日的作业让我们每人想十个模组点子
 
@@ -79,7 +79,7 @@ images/didian_duanjian_zatan/ill_002_0063.8s.jpg
 所以我去翻了QQ记录
 
 【图片】
-images/didian_duanjian_zatan/ill_003_0119.3s.jpg
+images/low-power-short-sighted-talk/ill_003_0119.3s.jpg
 
 起因不重要。
 
@@ -88,7 +88,7 @@ images/didian_duanjian_zatan/ill_003_0119.3s.jpg
 首先路易斯安那血统够纯正。
 
 【图片】
-images/didian_duanjian_zatan/ill_004_0133.5s.jpg
+images/low-power-short-sighted-talk/ill_004_0133.5s.jpg
 
 它是《克苏鲁的呼唤》里出现过的场所
 
@@ -97,14 +97,14 @@ images/didian_duanjian_zatan/ill_004_0133.5s.jpg
 带研讨加评论共占全文多达1/3篇幅
 
 【图片】
-images/didian_duanjian_zatan/ill_005_0145.3s.jpg
+images/low-power-short-sighted-talk/ill_005_0145.3s.jpg
 
 《穿越银钥之门》的发生地也在路易斯安那州新奥尔良市的某公寓
 
 虽然讲的是不知啥鬼地方的事
 
 【图片】
-images/didian_duanjian_zatan/ill_006_0152.5s.jpg
+images/low-power-short-sighted-talk/ill_006_0152.5s.jpg
 
 据我所知路易斯安那是爱手艺本人去过的第二靠南的地方（第一是佛罗里达基韦斯特）
 
@@ -123,7 +123,7 @@ images/didian_duanjian_zatan/ill_006_0152.5s.jpg
 也是3D生存恐怖类游戏始祖的《鬼屋魔影》第一部也发生在路易斯安那
 
 【图片】
-images/didian_duanjian_zatan/ill_007_0177.8s.jpg
+images/low-power-short-sighted-talk/ill_007_0177.8s.jpg
 
 这部游戏貌似要重制了。
 
@@ -132,7 +132,7 @@ images/didian_duanjian_zatan/ill_007_0177.8s.jpg
 就算放在奇形怪状的美国深南来看也是很有特色的地方。
 
 【图片】
-images/didian_duanjian_zatan/ill_008_0194.7s.jpg
+images/low-power-short-sighted-talk/ill_008_0194.7s.jpg
 
 易斯安那的南22教区（包括泰瑞伯尼）合称“阿卡狄安那”地区
 
@@ -153,7 +153,7 @@ images/didian_duanjian_zatan/ill_008_0194.7s.jpg
 以及
 
 【图片】
-images/didian_duanjian_zatan/ill_009_0232.5s.jpg
+images/low-power-short-sighted-talk/ill_009_0232.5s.jpg
 
 -“还附赠蛇神丹巴拉这种方便引入蛇人的大彩蛋。
 
@@ -176,7 +176,7 @@ images/didian_duanjian_zatan/ill_009_0232.5s.jpg
 我觉得巫毒文化是路易斯安那给COC的现成扩展包。
 
 【图片】
-images/didian_duanjian_zatan/ill_010_0280.7s.jpg
+images/low-power-short-sighted-talk/ill_010_0280.7s.jpg
 
 “有首歌叫《传承华尔兹》
 
@@ -225,7 +225,7 @@ images/didian_duanjian_zatan/ill_010_0280.7s.jpg
 种植园中不同语言使用者间诞生的当地白话就叫克里奥尔语
 
 【图片】
-images/didian_duanjian_zatan/ill_011_0368.5s.jpg
+images/low-power-short-sighted-talk/ill_011_0368.5s.jpg
 
 比如“丹巴拉”这个名字来自海地克里奥尔语。
 
@@ -266,7 +266,7 @@ images/didian_duanjian_zatan/ill_011_0368.5s.jpg
 还有南北战争的复杂影响，把泰瑞伯尼的气质搞成了某种南北向的梯度。
 
 【图片】
-images/didian_duanjian_zatan/ill_012_0453.5s.jpg
+images/low-power-short-sighted-talk/ill_012_0453.5s.jpg
 
 北边倾向于这样
 
@@ -289,7 +289,7 @@ images/didian_duanjian_zatan/ill_012_0453.5s.jpg
 战樱大佬把此主题翻译为遗传性退化变性
 
 【图片】
-images/didian_duanjian_zatan/ill_013_0473.2s.jpg
+images/low-power-short-sighted-talk/ill_013_0473.2s.jpg
 
 跑团的时候PL好像也受了点感染
 
@@ -302,7 +302,7 @@ images/didian_duanjian_zatan/ill_013_0473.2s.jpg
 哈里森先问了句“猫的眼睛怎么样？”
 
 【图片】
-images/didian_duanjian_zatan/ill_014_0484.8s.jpg
+images/low-power-short-sighted-talk/ill_014_0484.8s.jpg
 
 然后枚举老鼠的天敌里哪个眼睛不好
 
@@ -315,7 +315,7 @@ images/didian_duanjian_zatan/ill_014_0484.8s.jpg
 此假定不但是先验的．还是下意识的。
 
 【图片】
-images/didian_duanjian_zatan/ill_015_0500.3s.jpg
+images/low-power-short-sighted-talk/ill_015_0500.3s.jpg
 
 毕竟在南路易斯安那人畜分类模糊一点好像也说得通。
 
@@ -348,7 +348,7 @@ COC玩家大多不会觉得“KP你人真好”
 奈伦和塞梅尔的身份，出身，样貌，地址，甚至部分履历
 
 【图片】
-images/didian_duanjian_zatan/ill_016_0574.0s.jpg
+images/low-power-short-sighted-talk/ill_016_0574.0s.jpg
 
 我写马什兰117号，费舍棚屋外的草坪时
 
@@ -435,7 +435,7 @@ KP压缩安全区
 有个比较全面典型的例子是切利·普利斯特的南部哥特小说《The Toll》
 
 【图片】
-images/didian_duanjian_zatan/ill_017_0686.3s.jpg
+images/low-power-short-sighted-talk/ill_017_0686.3s.jpg
 
 故事发生在乔治亚州，但当作路易斯安那沼泽地完全没问题。
 
@@ -476,14 +476,14 @@ images/didian_duanjian_zatan/ill_017_0686.3s.jpg
 因此，对PL而言下沼泽是调查一环故无可厚非。
 
 【图片】
-images/didian_duanjian_zatan/ill_018_0764.3s.jpg
+images/low-power-short-sighted-talk/ill_018_0764.3s.jpg
 
 比如《低电》里
 
 如果调查员没做准备就开船遇到雅格拉那结果显然凶多吉少
 
 【图片】
-images/didian_duanjian_zatan/ill_019_0768.3s.jpg
+images/low-power-short-sighted-talk/ill_019_0768.3s.jpg
 
 好在沼泽足够复杂
 
@@ -496,12 +496,12 @@ KP啥都不给就赶人难免引起不满
 所以为中和负反馈，我们要准备好疏散奖励。
 
 【图片】
-images/didian_duanjian_zatan/ill_020_0785.7s.jpg
+images/low-power-short-sighted-talk/ill_020_0785.7s.jpg
 
 《低电》的奖励我给得不够，要拿奖励（情报）还得过一个高难度等级的检定。
 
 【图片】
-images/didian_duanjian_zatan/ill_021_0788.5s.jpg
+images/low-power-short-sighted-talk/ill_021_0788.5s.jpg
 
 如果现在重跑的话我会放一张被糟蹋过的空捕虾船
 
@@ -512,15 +512,15 @@ images/didian_duanjian_zatan/ill_021_0788.5s.jpg
 如果得的话就能提前触及核心谜题了。
 
 【图片】
-images/didian_duanjian_zatan/ill_022_0799.2s.jpg
+images/low-power-short-sighted-talk/ill_022_0799.2s.jpg
 
 【图片】
-images/didian_duanjian_zatan/ill_023_0807.2s.jpg
+images/low-power-short-sighted-talk/ill_023_0807.2s.jpg
 
 说到这里不提一下《诺科》就违法了。　—
 
 【图片】
-images/didian_duanjian_zatan/ill_024_0812.8s.jpg
+images/low-power-short-sighted-talk/ill_024_0812.8s.jpg
 
 这是一款22年3月出的点击式冒险游戏
 
@@ -547,19 +547,19 @@ images/didian_duanjian_zatan/ill_024_0812.8s.jpg
 《真探》讲高草，《诺科》讲沼泽和炼油厂。
 
 【图片】
-images/didian_duanjian_zatan/ill_025_0839.8s.jpg
+images/low-power-short-sighted-talk/ill_025_0839.8s.jpg
 
 《诺科》主创有好几人和《真探》编剧尼克·皮佐拉托一样都是路易斯安那本地人
 
 所以两部作品都有强烈“切身感”。
 
 【图片】
-images/didian_duanjian_zatan/ill_026_0846.5s.jpg
+images/low-power-short-sighted-talk/ill_026_0846.5s.jpg
 
 这不单是说他们写得让人身临其境
 
 【图片】
-images/didian_duanjian_zatan/ill_027_0849.0s.jpg
+images/low-power-short-sighted-talk/ill_027_0849.0s.jpg
 
 更是说，一，因为他们历过镇上很多地方，所以能概括出共性。
 
@@ -568,7 +568,7 @@ images/didian_duanjian_zatan/ill_027_0849.0s.jpg
 “在诺科无论从哪儿都能听到精炼厂的声音”
 
 【图片】
-images/didian_duanjian_zatan/ill_028_0859.8s.jpg
+images/low-power-short-sighted-talk/ill_028_0859.8s.jpg
 
 因为人不能同时处于多个地点，所以对多个地点的概括会被玩家下意识判断为回
 
@@ -589,14 +589,14 @@ images/didian_duanjian_zatan/ill_028_0859.8s.jpg
 但如果你喜欢《极乐迪斯科》的调调，也不在乎剧情更晦涩模糊一点的话
 
 【图片】
-images/didian_duanjian_zatan/ill_029_0899.8s.jpg
+images/low-power-short-sighted-talk/ill_029_0899.8s.jpg
 
 那《诺科》九成是你的菜。
 
 换句话说《诺科》适合超敏感型的人。
 
 【图片】
-images/didian_duanjian_zatan/ill_030_0907.8s.jpg
+images/low-power-short-sighted-talk/ill_030_0907.8s.jpg
 
 它还会教你怎样写动人的对话。
 
@@ -613,7 +613,7 @@ images/didian_duanjian_zatan/ill_030_0907.8s.jpg
 “存在了很久的东西。
 
 【图片】
-images/didian_duanjian_zatan/ill_031_0930.3s.jpg
+images/low-power-short-sighted-talk/ill_031_0930.3s.jpg
 
 “—直存在的东西。
 
@@ -622,7 +622,7 @@ images/didian_duanjian_zatan/ill_031_0930.3s.jpg
 “到底是什么东西？
 
 【图片】
-images/didian_duanjian_zatan/ill_032_0940.0s.jpg
+images/low-power-short-sighted-talk/ill_032_0940.0s.jpg
 
 托马斯·利戈蒂，当代怪奇小说巨头。
 
@@ -635,7 +635,7 @@ images/didian_duanjian_zatan/ill_032_0940.0s.jpg
 利戈蒂是名爱手艺信徒
 
 【图片】
-images/didian_duanjian_zatan/ill_033_0955.3s.jpg
+images/low-power-short-sighted-talk/ill_033_0955.3s.jpg
 
 他的第一本小说集《死梦者之歌》
 
@@ -644,7 +644,7 @@ images/didian_duanjian_zatan/ill_033_0955.3s.jpg
 “死去的克苏鲁边等候边做梦”
 
 【图片】
-images/didian_duanjian_zatan/ill_034_0961.8s.jpg
+images/low-power-short-sighted-talk/ill_034_0961.8s.jpg
 
 利戈蒂有本议论文集《反人类阴谋》
 
@@ -653,7 +653,7 @@ images/didian_duanjian_zatan/ill_034_0961.8s.jpg
 《愚痴者的教派》引言照脸一个阿撒托斯。
 
 【图片】
-images/didian_duanjian_zatan/ill_035_0969.2s.jpg
+images/low-power-short-sighted-talk/ill_035_0969.2s.jpg
 
 《小丑的最后一场盛宴》内容和爱手艺的《盛宴》呼应
 
@@ -676,7 +676,7 @@ images/didian_duanjian_zatan/ill_035_0969.2s.jpg
 但那是看完《反人类阴谋》才知道的。
 
 【图片】
-images/didian_duanjian_zatan/ill_036_0998.0s.jpg
+images/low-power-short-sighted-talk/ill_036_0998.0s.jpg
 
 他故事里的不可名状都像在想方设法暗示故事里的人物：TA活着没意义。
 
@@ -691,7 +691,7 @@ images/didian_duanjian_zatan/ill_036_0998.0s.jpg
 谓坡用乌鸦，爱手艺用触手，利戈蒂用人偶
 
 【图片】
-images/didian_duanjian_zatan/ill_037_1016.7s.jpg
+images/low-power-short-sighted-talk/ill_037_1016.7s.jpg
 
 也就是人减去除了受苦屁用都没有的意识之后剩下的玩意儿。
 
@@ -704,7 +704,7 @@ images/didian_duanjian_zatan/ill_037_1016.7s.jpg
 他认为普通感官之外的不详感才配得上超自然恐怖故事的气氛
 
 【图片】
-images/didian_duanjian_zatan/ill_038_1031.0s.jpg
+images/low-power-short-sighted-talk/ill_038_1031.0s.jpg
 
 那确实不超敏感不行了啊。
 
@@ -715,7 +715,7 @@ images/didian_duanjian_zatan/ill_038_1031.0s.jpg
 除此之外他还有两个观点我很受用：
 
 【图片】
-images/didian_duanjian_zatan/ill_039_1046.7s.jpg
+images/low-power-short-sighted-talk/ill_039_1046.7s.jpg
 
 他说有的人只能从苍白（凉）感中得到满足。
 
@@ -728,7 +728,7 @@ images/didian_duanjian_zatan/ill_039_1046.7s.jpg
 我想提名一个更现代更大众的《天马行空》。
 
 【图片】
-images/didian_duanjian_zatan/ill_040_1063.8s.jpg
+images/low-power-short-sighted-talk/ill_040_1063.8s.jpg
 
 他说平常感是很脆弱的东西
 
@@ -785,12 +785,12 @@ images/didian_duanjian_zatan/ill_040_1063.8s.jpg
 反倒是对巫毒教她心底始终觉得就那么回事儿。
 
 【图片】
-images/didian_duanjian_zatan/ill_041_1141.5s.jpg
+images/low-power-short-sighted-talk/ill_041_1141.5s.jpg
 
 雅格拉的名字（Y'ghla）是按克系命名的模样编出来的。
 
 【图片】
-images/didian_duanjian_zatan/ill_042_1145.7s.jpg
+images/low-power-short-sighted-talk/ill_042_1145.7s.jpg
 
 “庞大却仍为幼体”的灵感来自于爱手艺和妻子索尼娅的小说
 
@@ -815,7 +815,7 @@ images/didian_duanjian_zatan/ill_042_1145.7s.jpg
 跑团的时候发现根本用不到，视频里干脆砍掉了。
 
 【图片】
-images/didian_duanjian_zatan/ill_043_1181.3s.jpg
+images/low-power-short-sighted-talk/ill_043_1181.3s.jpg
 
 那也是篇人吃人的故事
 
@@ -888,7 +888,7 @@ images/didian_duanjian_zatan/ill_043_1181.3s.jpg
 现实里应该没消声能力这么厉害的抑制器。
 
 【图片】
-images/didian_duanjian_zatan/ill_044_1285.7s.jpg
+images/low-power-short-sighted-talk/ill_044_1285.7s.jpg
 
 阿尔斯蒙德的灵感来源是《真探》的埃罗尔·切德勒斯。
 
@@ -901,7 +901,7 @@ images/didian_duanjian_zatan/ill_044_1285.7s.jpg
 筛出来的话先进且有礼貌得莫名其妙。
 
 【图片】
-images/didian_duanjian_zatan/ill_045_1306.3s.jpg
+images/low-power-short-sighted-talk/ill_045_1306.3s.jpg
 
 夏克伍德的语言障碍除了表现超普通鲶鱼脸一步的异常性外”
 
@@ -936,12 +936,12 @@ images/didian_duanjian_zatan/ill_045_1306.3s.jpg
 看到奥利奥会想着“油炸一下怎样？”
 
 【图片】
-images/didian_duanjian_zatan/ill_046_1358.2s.jpg
+images/low-power-short-sighted-talk/ill_046_1358.2s.jpg
 
 ，罗伯特和贝尔的基本盘来自我对两个笑星（瑞奇·热维斯和比尔·伯尔）的印象。
 
 【图片】
-images/didian_duanjian_zatan/ill_047_1361.7s.jpg
+images/low-power-short-sighted-talk/ill_047_1361.7s.jpg
 
 安德莉亚我当初是这么写的：
 
@@ -988,12 +988,12 @@ images/didian_duanjian_zatan/ill_047_1361.7s.jpg
 后者什么人都有，但前者大头是当地房屋主
 
 【图片】
-images/didian_duanjian_zatan/ill_048_1426.8s.jpg
+images/low-power-short-sighted-talk/ill_048_1426.8s.jpg
 
 他们在乎的是自己的房价，不怎么矣心人种或者意识形态。
 
 【图片】
-images/didian_duanjian_zatan/ill_049_1432.8s.jpg
+images/low-power-short-sighted-talk/ill_049_1432.8s.jpg
 
 再者牵扯意识形态的法案（比如社保）大多是州和联邦级别的
 
@@ -1004,7 +1004,7 @@ images/didian_duanjian_zatan/ill_049_1432.8s.jpg
 因为飓风问题，不满供大于求。
 
 【图片】
-images/didian_duanjian_zatan/ill_050_1445.7s.jpg
+images/low-power-short-sighted-talk/ill_050_1445.7s.jpg
 
 不过现实中泰瑞伯尼教区只有候马一个自治体
 
@@ -1015,7 +1015,7 @@ images/didian_duanjian_zatan/ill_050_1445.7s.jpg
 话说回来·为省事我一直管埃利耶特叫“镇”
 
 【图片】
-images/didian_duanjian_zatan/ill_051_1459.5s.jpg
+images/low-power-short-sighted-talk/ill_051_1459.5s.jpg
 
 但按路易斯安那州州法五千人以上就可以叫城市了。
 
@@ -1038,7 +1038,7 @@ images/didian_duanjian_zatan/ill_051_1459.5s.jpg
 后者才是我们比较熟悉的“法医”。
 
 【图片】
-images/didian_duanjian_zatan/ill_052_1493.2s.jpg
+images/low-power-short-sighted-talk/ill_052_1493.2s.jpg
 
 因为这套流程较长，所以《低电》里艾伦和拉普拉斯才有空子可钻。
 
@@ -1069,7 +1069,7 @@ images/didian_duanjian_zatan/ill_052_1493.2s.jpg
 《短见》里艾伦隶属州警C纵队
 
 【图片】
-images/didian_duanjian_zatan/ill_053_1544.5s.jpg
+images/low-power-short-sighted-talk/ill_053_1544.5s.jpg
 
 负责的是包括泰瑞伯尼在内的四个教区。
 
@@ -1078,7 +1078,7 @@ images/didian_duanjian_zatan/ill_053_1544.5s.jpg
 而《真探》的男主们通信编号以打头
 
 【图片】
-images/didian_duanjian_zatan/ill_054_1556.7s.jpg
+images/low-power-short-sighted-talk/ill_054_1556.7s.jpg
 
 对应靠西的纵队，和艾伦是三教区外的部门邻居。
 
@@ -1113,21 +1113,21 @@ images/didian_duanjian_zatan/ill_054_1556.7s.jpg
 他设想的烟酒瘾中年人边喝边谈自己前妻的镜头最后没能实现。
 
 【图片】
-images/didian_duanjian_zatan/ill_055_1622.5s.jpg
+images/low-power-short-sighted-talk/ill_055_1622.5s.jpg
 
 拉普拉斯角色卡背景栏写着：左邻右舍闲话拉普拉斯是他母亲出轨得来的
 
 因为他爸的儿必考不上医学院。
 
 【图片】
-images/didian_duanjian_zatan/ill_056_1629.3s.jpg
+images/low-power-short-sighted-talk/ill_056_1629.3s.jpg
 
 《低电》和《短见》间有六年空窗
 
 可以选一大堆自选技能过成长投
 
 【图片】
-images/didian_duanjian_zatan/ill_057_1634.2s.jpg
+images/low-power-short-sighted-talk/ill_057_1634.2s.jpg
 
 拉普拉斯（吞星白鲸）找了这么个广告能不能自选忍术（潜行）
 
@@ -1136,7 +1136,7 @@ images/didian_duanjian_zatan/ill_057_1634.2s.jpg
 我向他确认是不是真的那么想成长攀爬技能，他就反悔了。
 
 【图片】
-images/didian_duanjian_zatan/ill_058_1644.7s.jpg
+images/low-power-short-sighted-talk/ill_058_1644.7s.jpg
 
 乔杰特斜视这个设定是跑了几次以后才和PL讨论出来的。
 
@@ -1159,7 +1159,7 @@ PL考虑过重车，我承诺会塞PC独占信息给劝住了。
 PL刚开始操作很谨慎，想方设法地回避SC
 
 【图片】
-images/didian_duanjian_zatan/ill_059_1674.7s.jpg
+images/low-power-short-sighted-talk/ill_059_1674.7s.jpg
 
 直到头天晚上大失败接大成功大概兴致一来就豁出去了。
 
@@ -1170,7 +1170,7 @@ images/didian_duanjian_zatan/ill_059_1674.7s.jpg
 我觉得结团时他像另一个肯尼迪。
 
 【图片】
-images/didian_duanjian_zatan/ill_060_1689.7s.jpg
+images/low-power-short-sighted-talk/ill_060_1689.7s.jpg
 
 有不少私信问拉普拉斯和乔杰特是不是表兄妹。
 
@@ -1179,12 +1179,12 @@ images/didian_duanjian_zatan/ill_060_1689.7s.jpg
 但你们继续的话我们就要被说服了。
 
 【图片】
-images/didian_duanjian_zatan/ill_061_1697.8s.jpg
+images/low-power-short-sighted-talk/ill_061_1697.8s.jpg
 
 还有不少私信问艾伦有没有鱼人血统，答案同上。
 
 【图片】
-images/didian_duanjian_zatan/ill_062_1701.8s.jpg
+images/low-power-short-sighted-talk/ill_062_1701.8s.jpg
 
 第一次审奈伦时哈里森对艾伦说“我白脸你红脸”
 
@@ -1199,7 +1199,7 @@ images/didian_duanjian_zatan/ill_062_1701.8s.jpg
 第一次追逐战我就说漏嘴暴露了雅格拉真名。
 
 【图片】
-images/didian_duanjian_zatan/ill_063_1718.3s.jpg
+images/low-power-short-sighted-talk/ill_063_1718.3s.jpg
 
 PL讨论时口嗨过一些让警徽听了会融化的计划。
 
@@ -1228,7 +1228,7 @@ PL讨论时口嗨过一些让警徽听了会融化的计划。
 这些信息还没在目前的视频里公开。
 
 【图片】
-images/didian_duanjian_zatan/ill_064_1748.8s.jpg
+images/low-power-short-sighted-talk/ill_064_1748.8s.jpg
 
 啊，原来我从来没把乔杰特打对过·对不起。
 
@@ -1243,7 +1243,7 @@ images/didian_duanjian_zatan/ill_064_1748.8s.jpg
 但一次都没用过。
 
 【图片】
-images/didian_duanjian_zatan/ill_065_1765.0s.jpg
+images/low-power-short-sighted-talk/ill_065_1765.0s.jpg
 
 跑团时原本设定塞梅尔衣橱里挂衣服的横杆不见了
 
@@ -1256,21 +1256,21 @@ images/didian_duanjian_zatan/ill_065_1765.0s.jpg
 最后就没在视频里展开。
 
 【图片】
-images/didian_duanjian_zatan/ill_066_1782.8s.jpg
+images/low-power-short-sighted-talk/ill_066_1782.8s.jpg
 
 塞梅尔战会死两个PC是因为我太欧了。对不起。
 
 但我也做过善事
 
 【图片】
-images/didian_duanjian_zatan/ill_067_1789.2s.jpg
+images/low-power-short-sighted-talk/ill_067_1789.2s.jpg
 
 按照民间增补本《调查员武器》
 
 豆袋弹的抵近伤害不是最低（4点）而是2d6（12g霰弹枪一倍射程半伤害）。
 
 【图片】
-images/didian_duanjian_zatan/ill_068_1794.2s.jpg
+images/low-power-short-sighted-talk/ill_068_1794.2s.jpg
 
 哈里森敏捷75·抵近范围实质有大约四米半
 
@@ -1279,7 +1279,7 @@ images/didian_duanjian_zatan/ill_068_1794.2s.jpg
 所以跑的时候我假装没看到2d6这条。
 
 【图片】
-images/didian_duanjian_zatan/ill_069_1804.5s.jpg
+images/low-power-short-sighted-talk/ill_069_1804.5s.jpg
 
 深渊之息也是
 

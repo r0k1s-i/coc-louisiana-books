@@ -9,13 +9,13 @@
 ## 文件角色
 
 - 仓库根目录的 `*.md`（`low-power.md`、`short-sighted.md`、`open-dreamer.md` 三本正文，`*-talk.md` 杂谈、`*-credits.md` 制作人员两类附录；`README.md`/`AGENTS.md` 等说明文件除外）：唯一的正文来源（source of truth）。校对任务改的就是这几个文件。
-- `tools/*_02_build_epub.js` + `tools/common_epub.js`：`正文 md -> epub` 的生成工具。改排版渲染逻辑从这里入手。
+- `tools/build-*.js` + `tools/common_epub.js`：`正文 md -> epub` 的生成工具。改排版渲染逻辑从这里入手。
 
 ## 处理校对类任务时
 
 - 优先做**最小、可独立审阅**的修改：一个错字/一处人名不一致就是一个 commit 或一次讨论，不要顺手大范围重排格式。
 - 正文里的排版约定（`> **人物：**「对话」`、`—— 场景 ——`、`§标题`、`▷ 骰子检定卡片` 等）已经是仓库既有约定，遇到新情况就模仿最相似的既有写法，不要发明新记号。
-- 改完用 `node tools/<书名>_02_build_epub.js` 实际跑一次确认没有解析报错（`common_epub.js` 里有不少行号级别的针对性修复，格式改动容易让下游解析崩掉）。
+- 改完用 `node tools/build-<书名>.js`（如 `build-low-power.js`） 实际跑一次确认没有解析报错（`common_epub.js` 里有不少行号级别的针对性修复，格式改动容易让下游解析崩掉）。
 
 ## 不要做的事
 

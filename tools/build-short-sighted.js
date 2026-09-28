@@ -18,5 +18,5 @@ require('./common_epub.js').buildEpub({
     { src: 'tools/images/carol_rigg_2.png', name: 'carol_rigg_2.png' },
   ],
   appendices: ['low-power-short-sighted-talk.md', 'short-sighted-credits.md'],
-  imageDirs: [{ src: 'tools/images/低电短见_杂谈', name: 'didian_duanjian_zatan' }],
+  imageDirs: [{ src: 'tools/images/low-power-short-sighted-talk', name: 'low-power-short-sighted-talk' }],
 });

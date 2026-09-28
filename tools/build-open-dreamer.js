@@ -17,7 +17,7 @@ require('./common_epub.js').buildEpub({
   disclaimer: '视频由2023年的网团大面积魔改而成自娱自乐，切勿当真。视频可能包含各类令人不适的描述，请积极回避。',
   appendices: ['chasing-stars-talk.md', 'open-dreamer-credits.md'],
   imageDirs: [
-    { src: 'tools/images/追星_杂谈', name: 'zhuixing_zatan' },
-    { src: 'tools/images/畅梦人', name: 'changmengren' },
+    { src: 'tools/images/chasing-stars-talk', name: 'chasing-stars-talk' },
+    { src: 'tools/images/open-dreamer', name: 'open-dreamer' },
   ],
 });
