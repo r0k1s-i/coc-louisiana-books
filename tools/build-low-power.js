@@ -12,6 +12,9 @@ require('./common_epub.js').buildEpub({
   bilibiliUrl: 'https://www.bilibili.com/video/BV1V24y177sX',
   coverImage: 'tools/images/cover_low_power.png',
   authorAvatar: 'tools/images/author_avatar.jpg',
+  imageDirs: [
+    { src: 'tools/images/low-power', name: 'low-power' },
+  ],
   disclaimer: '视频由2021年的网团大面积魔改而成自娱自乐，切勿当真。视频可能包含各类令人不适的描述，请积极回避。',
   appendices: ['low-power-credits.md'],
 });
