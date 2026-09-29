@@ -575,7 +575,7 @@ CHIEF'S OFFICE
 
 > **拉普拉斯：** 「各位，认识一下塞梅尔·格拉皮昂。」
 
-Bipedal Reptile
+▣ Bipedal Reptile
 
 ## EP 2
 
@@ -1187,7 +1187,7 @@ ELIETTE COMMUNITY HOSPITAL
 
 屋里比自然光更亮的东西都是外人带进来的。
 
-Ontological disorder
+▣ Ontological disorder
 
 ## EP 3
 
@@ -1703,7 +1703,7 @@ Ontological disorder
 > **艾伦：** 「怎么会呢，您当然是安全的。没有担心的必要。」
 > 「45#7965请您相信我们，很快就会结案的。」
 
-ours
+▣ ours
 
 ## EP 4
 
@@ -2267,7 +2267,7 @@ Intro家住威斯康辛州麦迪逊市现单身。两名孩子的父亲。
 > **缪勒：** 「谢啦。」
 > 「妈的…」
 
-The Infrastructure of War
+▣ The Infrastructure of War
 
 ## EP 5
 
@@ -2779,7 +2779,7 @@ THE PLAZA AT N CAROL ST
 
 > **哈里森：** 「谢了，尽快。」
 
-Skinnerian creatures
+▣ Skinnerian creatures
 
 ## EP 6
 
@@ -3393,7 +3393,7 @@ Skinnerian creatures
 
 > **哈里森：** 「我已经离过婚了，谢谢。」
 
-Meatball of Arguments
+▣ Meatball of Arguments
 
 ## EP 7
 

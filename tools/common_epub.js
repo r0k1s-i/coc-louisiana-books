@@ -74,8 +74,54 @@ function parseIntermediateMarkdown(raw) {
   return chapters;
 }
 
-function renderBlock(lines) {
+// 章末标题卡：「▣ 中文题 | English Title」，原视频把每集标题放在最后一帧揭晓，
+// 这里同样放在章末、单独成页，不进目录。只写一种语言时（无「|」）按是否含汉字判断。
+// 「Ep.N」不写进源文件，由所在章节标题（"EP 1"）推出。
+// 版式仿原视频：中文题最大，英文题在下方与中文题左右对齐。.ep-block 是
+// shrink-to-fit 的 inline-block，宽度取两行中较长者，两行都是 .flexline
+// （逐字 span + space-between）撑满这个宽度；英文字号按字符数估算到接近
+// 中文题宽度，让撑开的字距不至于过大。
+function renderTitleCard(text, chapTitle) {
+  const parts = text.split('|').map(p => p.trim());
+  let zh = '', en = '';
+  if (parts.length > 1) [zh, en] = parts;
+  else if (/[\u4e00-\u9fff]/.test(parts[0])) zh = parts[0];
+  else en = parts[0];
+  const epMatch = String(chapTitle || '').match(/^EP\s*(\d+)$/i);
+  const epLabel = epMatch ? `Ep.${epMatch[1]}` : chapTitle;
+  // 字号尽量撑满页宽（约 84vw）以接近原视频的冲击力，同时用 em 封顶防止
+  // 宽屏/双页模式下过大；不支持 min()/vw 的阅读器退回前一条纯 em 声明。
+  // 英文题字号按字符数估算到与中文题等宽（Helvetica/Arial 粗体平均字宽约
+  // 0.55em），但不超过中文题的 0.75 倍；Ep.N 与英文题同字号，但不超过中文题的 0.45 倍。
+  const W = 84;
+  const sz = (fb, vw, cap) => `font-size: ${fb.toFixed(2)}em; font-size: min(${vw.toFixed(2)}vw, ${cap.toFixed(2)}em);`;
+  // 大字行可能夹杂拉丁字母（「水plus」）或符号（「●●●●●●」）：宽度按全角 1、
+  // 半角约 0.6 估算；连续的拉丁字母合成一个 span，不被逐字撑开。
+  const zhUnits = zh.match(/[A-Za-z0-9]+|./gu) || [];
+  const zhLen = zhUnits.reduce((w, u) => w + (/^[A-Za-z0-9]/.test(u) ? u.length * 0.6 : 1), 0);
+  let zhStyle = '', enStyle, epStyle;
+  if (zhLen) {
+    const zhFb = Math.min(4.5, 20 / zhLen), zhVw = W / zhLen, zhCap = Math.min(7, 30 / zhLen);
+    zhStyle = sz(zhFb, zhVw, zhCap);
+    const k = en ? Math.min(0.75, zhLen / (en.length * 0.55)) : 0.45;
+    const kEp = Math.min(k, 0.45);
+    enStyle = sz(Math.max(1, zhFb * k), zhVw * k, zhCap * k);
+    epStyle = sz(Math.max(1, zhFb * kEp), zhVw * kEp, zhCap * kEp);
+  } else {
+    enStyle = epStyle = sz(1.8, Math.min(W / (en.length * 0.55), 10), 4);
+  }
+  const spans = str => Array.from(str).map(c => c === ' ' ? '<span>&#160;</span>' : `<span>${escapeHtml(c)}</span>`).join('');
+  const rows = [];
+  if (epLabel) rows.push(`<p class="ep-no" style="${epStyle}">${escapeHtml(epLabel)}</p>`);
+  if (zh) rows.push(`<p class="ep-title-zh flexline" style="${zhStyle}">${zhUnits.map(u => `<span>${escapeHtml(u)}</span>`).join('')}</p>`);
+  if (en) rows.push(`<p class="ep-title-en flexline" style="${enStyle}">${spans(en)}</p>`);
+  return `<div class="ep-titlecard">\n<div class="ep-block">\n${rows.join('\n')}\n</div>\n</div>`;
+}
+
+function renderBlock(lines, chapTitle) {
   const first = lines[0];
+
+  if (first.startsWith('▣ ')) return renderTitleCard(first.slice(2), chapTitle);
 
   if (first.startsWith('> ')) {
     const inner = lines.map(l => l.replace(/^>\s?/, ''));
@@ -209,6 +255,7 @@ const CSS = `
   --sign-color: #333333;
   --citation-border: #9a9284;
   --citation-text: #4a4638;
+  --ep-title-color: #4f7f55;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -234,6 +281,7 @@ const CSS = `
     --sign-color: #cccccc;
     --citation-border: #756f64;
     --citation-text: #ccc7bb;
+    --ep-title-color: #a3d1a8;
   }
 }
 
@@ -528,6 +576,43 @@ h1.chaptertitle {
   border-bottom-color: var(--border-rule, #999);
   padding-bottom: 0.6em;
   color: inherit;
+}
+
+/* 章末标题卡：单独成页，三级字号仿原视频最后一帧 */
+.ep-titlecard {
+  page-break-before: always;
+  break-before: page;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  padding-top: 28vh;
+  text-align: center;
+  color: #4f7f55;
+  color: var(--ep-title-color, #4f7f55);
+}
+.ep-block {
+  display: inline-block;
+  max-width: 100%;
+}
+.ep-titlecard p {
+  margin: 0;
+  text-indent: 0;
+  text-align: center;
+  line-height: 1.15;
+}
+p.ep-no {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+p.ep-title-zh {
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+  margin: 0.02em 0;
+}
+p.ep-title-en {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
 }
 
 /* Narration */
@@ -1010,7 +1095,7 @@ ${cfg.bookMeta ? `<p class="bookmeta">${escapeHtml(cfg.bookMeta)}</p>` : ''}
     const isRules = chap.title === '规则序言';
     const body = isRules ? renderRulesPreface(chap.blocks)
       : chap.title === '制作人员' ? renderCredits(chap.blocks)
-      : chap.blocks.map(renderBlock).join('\n');
+      : chap.blocks.map(b => renderBlock(b, chap.title)).join('\n');
     const html = XHTML_HEAD(chap.title) + `
 <section epub:type="${chap.appendix ? 'appendix' : 'chapter'}">
 <h1 class="chaptertitle" style="text-align: center; text-indent: 0;">${escapeHtml(chap.title)}</h1>
