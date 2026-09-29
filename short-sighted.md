@@ -575,7 +575,7 @@ CHIEF'S OFFICE
 
 > **拉普拉斯：** 「各位，认识一下塞梅尔·格拉皮昂。」
 
-▣ Bipedal Reptile
+▣ 双足爬虫 | Bipedal Reptile
 
 ## EP 2
 
@@ -1187,7 +1187,7 @@ ELIETTE COMMUNITY HOSPITAL
 
 屋里比自然光更亮的东西都是外人带进来的。
 
-▣ Ontological disorder
+▣ 本体紊乱 | Ontological disorder
 
 ## EP 3
 
@@ -1703,7 +1703,7 @@ ELIETTE COMMUNITY HOSPITAL
 > **艾伦：** 「怎么会呢，您当然是安全的。没有担心的必要。」
 > 「45#7965请您相信我们，很快就会结案的。」
 
-▣ ours
+▣ 谨启 | Yours truly
 
 ## EP 4
 
@@ -2267,7 +2267,7 @@ Intro家住威斯康辛州麦迪逊市现单身。两名孩子的父亲。
 > **缪勒：** 「谢啦。」
 > 「妈的…」
 
-▣ The Infrastructure of War
+▣ 战争的基建 | The Infrastructure of War
 
 ## EP 5
 
@@ -2779,7 +2779,7 @@ THE PLAZA AT N CAROL ST
 
 > **哈里森：** 「谢了，尽快。」
 
-▣ Skinnerian creatures
+▣ 斯金纳式生物 | Skinnerian creatures
 
 ## EP 6
 
@@ -3393,7 +3393,7 @@ THE PLAZA AT N CAROL ST
 
 > **哈里森：** 「我已经离过婚了，谢谢。」
 
-▣ Meatball of Arguments
+▣ 一肉球的理 | A Meatball of Arguments
 
 ## EP 7
 
@@ -4042,6 +4042,8 @@ OC喷雾立竿见影。伊迪欧特举臂护住心形的脑袋，在辣椒精里
 🎲 1d100 = 45
 🌟 普通成功
 伤害1
+
+▣ 蔓生 | Overgrowth
 
 ## EP 8
 
@@ -4694,6 +4696,8 @@ OC喷雾立竿见影。伊迪欧特举臂护住心形的脑袋，在辣椒精里
 
 我看都不过养料。』
 
+▣ 还乡无路 | No Way Home
+
 ## EP 9
 
 > **奥林Jr.：** 「你他妈要踢裂我的厕所门？」
@@ -5237,9 +5241,7 @@ images/carol_rigg_2.png
 
 桑迪死亡
 
-【招牌】
-科叶尔
-COURIER
+▣ | 科叶尔 | COURIER
 
 待小艇靠岸，他第一个跳下船。乔杰特和安德莉亚跟在他身后。
 

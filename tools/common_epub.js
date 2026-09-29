@@ -76,24 +76,29 @@ function parseIntermediateMarkdown(raw) {
 
 // 章末标题卡：「▣ 中文题 | English Title」，原视频把每集标题放在最后一帧揭晓，
 // 这里同样放在章末、单独成页，不进目录。只写一种语言时（无「|」）按是否含汉字判断。
-// 「Ep.N」不写进源文件，由所在章节标题（"EP 1"）推出。
+// 「Ep.N」不写进源文件，由所在章节标题（"EP 1"）推出；写成三段「▣ 标签 | 中文题 | English」
+// 时第一段覆盖这个标签，留空（「▣ | 科叶尔 | COURIER」）即不显示 Ep 行。
 // 版式仿原视频：中文题最大，英文题在下方与中文题左右对齐。.ep-block 是
 // shrink-to-fit 的 inline-block，宽度取两行中较长者，两行都是 .flexline
 // （逐字 span + space-between）撑满这个宽度；英文字号按字符数估算到接近
 // 中文题宽度，让撑开的字距不至于过大。
 function renderTitleCard(text, chapTitle) {
   const parts = text.split('|').map(p => p.trim());
-  let zh = '', en = '';
-  if (parts.length > 1) [zh, en] = parts;
+  let zh = '', en = '', label;
+  if (parts.length > 2) [label, zh, en] = parts;
+  else if (parts.length > 1) [zh, en] = parts;
   else if (/[\u4e00-\u9fff]/.test(parts[0])) zh = parts[0];
   else en = parts[0];
   const epMatch = String(chapTitle || '').match(/^EP\s*(\d+)$/i);
-  const epLabel = epMatch ? `Ep.${epMatch[1]}` : chapTitle;
+  const epLabel = label !== undefined ? label : epMatch ? `Ep.${epMatch[1]}` : chapTitle;
   // 字号尽量撑满页宽（约 84vw）以接近原视频的冲击力，同时用 em 封顶防止
   // 宽屏/双页模式下过大；不支持 min()/vw 的阅读器退回前一条纯 em 声明。
-  // 英文题字号按字符数估算到与中文题等宽（Helvetica/Arial 粗体平均字宽约
-  // 0.55em），但不超过中文题的 0.75 倍；Ep.N 与英文题同字号，但不超过中文题的 0.45 倍。
+  // 英文题字号按估算宽度（Helvetica/Arial 粗体的大致字宽，见 enWidth）缩放到
+  // 与中文题等宽，但不超过中文题的 0.75 倍；Ep.N 与英文题同字号，但不超过中文题的 0.45 倍。
   const W = 84;
+  const enWidth = str => Array.from(str).reduce((w, c) =>
+    w + (c === ' ' ? 0.28 : /[ijlI.,']/.test(c) ? 0.28 : /[ftr]/.test(c) ? 0.38
+      : /[mwMW]/.test(c) ? 0.9 : /[A-Z]/.test(c) ? 0.72 : 0.6), 0);
   const sz = (fb, vw, cap) => `font-size: ${fb.toFixed(2)}em; font-size: min(${vw.toFixed(2)}vw, ${cap.toFixed(2)}em);`;
   // 大字行可能夹杂拉丁字母（「水plus」）或符号（「●●●●●●」）：宽度按全角 1、
   // 半角约 0.6 估算；连续的拉丁字母合成一个 span，不被逐字撑开。
@@ -103,12 +108,12 @@ function renderTitleCard(text, chapTitle) {
   if (zhLen) {
     const zhFb = Math.min(4.5, 20 / zhLen), zhVw = W / zhLen, zhCap = Math.min(7, 30 / zhLen);
     zhStyle = sz(zhFb, zhVw, zhCap);
-    const k = en ? Math.min(0.75, zhLen / (en.length * 0.55)) : 0.45;
+    const k = en ? Math.min(0.75, zhLen / enWidth(en)) : 0.45;
     const kEp = Math.min(k, 0.45);
     enStyle = sz(Math.max(1, zhFb * k), zhVw * k, zhCap * k);
     epStyle = sz(Math.max(1, zhFb * kEp), zhVw * kEp, zhCap * kEp);
   } else {
-    enStyle = epStyle = sz(1.8, Math.min(W / (en.length * 0.55), 10), 4);
+    enStyle = epStyle = sz(1.8, Math.min(W / enWidth(en), 10), 4);
   }
   const spans = str => Array.from(str).map(c => c === ' ' ? '<span>&#160;</span>' : `<span>${escapeHtml(c)}</span>`).join('');
   const rows = [];
